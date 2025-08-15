@@ -12,11 +12,11 @@
     </image>
 
     <item>
-        <title>Živý prenos prvá verzia</title>
+        <title>Živý prenos aktualizácia: {{DATE}}</title>
         <description>Poslouchejte živý přenos Českého rozhlasu Dvojka</description>
-        <enclosure url="http://www.play.cz/radio/cro2-128.mp3.m3u" length="0" type="audio/mpeg"/>
-        <guid>cro-dvojka-initial</guid>
-        <pubDate>Thu, 14 Aug 2025 10:00:00 +0200</pubDate>
+        <enclosure url="https://icecast8.play.cz/cro2-128.mp3" length="0" type="audio/mpeg"/>
+        <guid>cro-dvojka-{{DATE}}</guid>
+        <pubDate>{{DATE_RFC}}</pubDate>
     </item>
 </channel>
 </rss>
