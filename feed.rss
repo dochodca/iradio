@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>ČRo Dvojka – Live</title>
+    <link>https://dvojka.rozhlas.cz</link>
+    <description>Živý stream stanice Český rozhlas Dvojka cez Spotify</description>
+    <language>cs</language>
+    <image>
+        <url>https://upload.wikimedia.org/wikipedia/commons/6/63/Cesky_rozhlas_logo.svg</url>
+        <title>ČRo Dvojka – Live</title>
+        <link>https://dvojka.rozhlas.cz</link>
+    </image>
+
+    <item>
+        <title>Živý prenos prvá verzia</title>
+        <description>Poslouchejte živý přenos Českého rozhlasu Dvojka</description>
+        <enclosure url="http://www.play.cz/radio/cro2-128.mp3.m3u" length="0" type="audio/mpeg"/>
+        <guid>cro-dvojka-initial</guid>
+        <pubDate>Thu, 14 Aug 2025 10:00:00 +0200</pubDate>
+    </item>
+</channel>
+</rss>
