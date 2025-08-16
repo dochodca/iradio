@@ -31,7 +31,7 @@
 
     <!-- Jediná epizóda = živý stream -->
     <item>
-        <title>CRo Dvojka</title>
+        <title>CRo Dvojka Live</title>
         <description>Poslouchejte živý přenos Českého rozhlasu Dvojka</description>
         <enclosure url="https://icecast8.play.cz/cro2-128.mp3" length="0" type="audio/mpeg"/>
         <guid isPermaLink="false">cro-dvojka-live</guid>
