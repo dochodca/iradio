@@ -1,30 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
 <channel>
+    <!-- Základné info -->
     <title>ČRo Dvojka – Live</title>
     <link>https://dvojka.rozhlas.cz</link>
-    <description>Živý stream stanice Český rozhlas Dvojka cez Spotify</description>
+    <description>Živý stream stanice Český rozhlas Dvojka</description>
     <language>cs</language>
 
+    <!-- Autor a kontakt -->
     <itunes:author>Český rozhlas</itunes:author>
     <itunes:owner>
         <itunes:name>Český rozhlas</itunes:name>
         <itunes:email>w995vb@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:explicit>false</itunes:explicit>
 
+    <!-- Obrázok podcastu -->
+    <itunes:image href="https://upload.wikimedia.org/wikipedia/commons/6/63/Cesky_rozhlas_logo.svg" />
     <image>
         <url>https://upload.wikimedia.org/wikipedia/commons/6/63/Cesky_rozhlas_logo.svg</url>
         <title>ČRo Dvojka – Live</title>
         <link>https://dvojka.rozhlas.cz</link>
     </image>
 
+    <!-- Kategórie -->
+    <itunes:category text="Music"/>
+    <itunes:category text="News"/>
+
+    <!-- Jediná epizóda = živý stream -->
     <item>
-        <title>Živý prenos</title>
+        <title>Živý prenos – verzia pre Spotify</title>
         <description>Poslouchejte živý přenos Českého rozhlasu Dvojka</description>
-        <enclosure url="http://amp.cesnet.cz:8000/cro2-128-mp3" length="0" type="audio/mpeg"/>
-        <guid>cro-dvojka-live</guid>
+        <enclosure url="https://icecast8.play.cz/cro2-128.mp3" length="0" type="audio/mpeg"/>
+        <guid isPermaLink="false">cro-dvojka-live</guid>
         <pubDate>Thu, 14 Aug 2025 10:00:00 +0200</pubDate>
     </item>
+
 </channel>
 </rss>
