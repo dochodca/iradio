@@ -31,7 +31,7 @@
 
     <!-- Jediná epizóda = živý stream -->
     <item>
-        <title>Živý prenos – verzia pre Spotify</title>
+        <title>CRo Dvojka</title>
         <description>Poslouchejte živý přenos Českého rozhlasu Dvojka</description>
         <enclosure url="https://icecast8.play.cz/cro2-128.mp3" length="0" type="audio/mpeg"/>
         <guid isPermaLink="false">cro-dvojka-live</guid>
